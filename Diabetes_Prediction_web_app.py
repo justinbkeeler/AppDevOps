@@ -10,7 +10,9 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('https://github.com/justinbkeeler/AppDevOps/blob/9e5df4648c1afe02c90b3047af6557083128ccd4/trained_model.sav', 'rb'))
+with open("trained_model.sav", "rb") as file:
+    loaded_model = pickle.load(file)
+
 
 # creating a function for Prediction
 
