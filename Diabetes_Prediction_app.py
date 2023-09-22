@@ -5,7 +5,6 @@ Created on Fri Sep 22 01:38:57 2023
 @author: jk
 """
 
-import os
 import numpy as np
 import pickle
 import streamlit as st
