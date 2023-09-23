@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 22 01:38:57 2023
-
-@author: jk
-"""
-
 import numpy as np
 import pickle
 import streamlit as st
@@ -31,10 +24,6 @@ def diabetes_prediction(input_data):
       return 'The person is not diabetic'
     else:
       return 'The person is diabetic'
-  
-    
-  
-    
 
 
 def main ():
@@ -80,3 +69,6 @@ def main ():
     
     
     st.success(diagnosis)
+
+if __name__ == '__main__':
+    main()
